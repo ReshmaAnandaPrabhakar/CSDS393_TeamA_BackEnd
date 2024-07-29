@@ -6,9 +6,7 @@
     "node": ">=16.x"
   },
   "scripts": {
-    "start": "node app.js",
-    "start:prod": "node app.js",
-    "vercel-build":"echo hello"
+    "start": "node app.js"
   },
   "author": "",
   "license": "ISC",
