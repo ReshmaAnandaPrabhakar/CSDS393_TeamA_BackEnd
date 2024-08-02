@@ -71,7 +71,6 @@ exports.getBudgets = async (req, res) => {
     }
 };
 exports.deleteBudget = async (req, res) => {
-    console.log('deleteBudget enter');
     const { user, month, year } = req.body;
 
     try {

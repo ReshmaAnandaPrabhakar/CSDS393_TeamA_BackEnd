@@ -78,7 +78,6 @@ exports.getAccounts = async (req, res) => {
 };
 
 exports.deleteAccount = async (req, res) => {
-    console.log('deleteAccount enter');
     const { user, month, year} = req.body;
 
     try {
